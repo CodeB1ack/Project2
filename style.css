@@ -70,3 +70,24 @@
 .search-close {
     opacity: 0;
 }
+
+.active-search {
+    max-width: 100%;
+    width: 20rem;
+}
+
+.active-search .search-button {
+    left: calc(100% - 2rem);
+}
+
+.active-search .search-input {
+    pointer-events: initial;
+}
+
+.active-search .search-close {
+    opacity: 1;
+}
+
+.active-search .search-icon {
+    opacity: 0;
+}
