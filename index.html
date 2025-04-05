@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fda2c43a03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="style2.css">
     <script src="main2.js"></script>
     <title>Giphy Search</title>
@@ -13,7 +14,10 @@
         <h1 class="title">Giphy Search</h1>
            
             <input type="text" class="search-input" placeholder="Search for GIFs..." id="input" >
-            <button onclick="sendApiRequest()">Giphy!</button></br>
+            <div onclick="sendApiRequest()" id="btn">
+                <span class="noselect">Giphy!</span>
+                <div id="circle"></div>
+            </div>
             <div class="search-button">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 <i class="fa-solid fa-xmark search-close"></i>
