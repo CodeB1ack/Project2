@@ -6,16 +6,16 @@ const toggleSearch = () => {
     searchButton.addEventListener('click', () => {
         searchForm.classList.toggle('active-search');
     });
+    
     searchInput.addEventListener('keydown', (e) => {
         
         if (e.key === 'Enter') {
             searchForm.classList.remove('active-search');
             e.preventDefault();
             searchInput.value = '';
-            searchForm classList.remove('active-search');
+            searchForm.classList.remove('active-search');
         }
     });
-
 };
 
 toggleSearch();
