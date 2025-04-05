@@ -1,3 +1,5 @@
+// Search Bar //
+
 const toggleSearch = () => {
     const searchForm = document.querySelector('.search-form');
     const searchButton = document.querySelector('.search-button');
@@ -19,3 +21,12 @@ const toggleSearch = () => {
 };
 
 toggleSearch();
+
+//Giphy API//
+
+function sendApiRequest() {
+    var userInput = document.getElementById("input").value
+    console.log(userInput)
+
+    var giphyApiKey = "qTl4hmkMzsJBMmrACSVWVZVbiywYnYs4"
+}
