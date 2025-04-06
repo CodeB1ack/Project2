@@ -109,4 +109,18 @@ h1 {
     font-family: "Boldonse", system-ui;
 }
 
+H2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-family: "Bungee Tint", sans-serif;
+    text-align: center;
+}
 
+p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-family: "Boldonse", system-ui;
+    text-align: center;
+}
