@@ -69,6 +69,8 @@ h1 {
     color: blueviolet;
     font-size: 35px;
     font-family: "Boldonse", system-ui;
-    
-   
+}
+
+#input, #btn {
+    flex-wrap: center;
 }
