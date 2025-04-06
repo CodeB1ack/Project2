@@ -1,13 +1,7 @@
 html {
     height: 100vh;
     align-items: center;
-    justify-content: center;
     background-color: rgb(66, 4, 105);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 500ms;
 }
 
 .navbar {
@@ -48,6 +42,21 @@ h1 {
     text-align: center;
 }
 
+#input, #btn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -10%);
+    transition: 500ms;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 #btn {
     background: #000000;
     height: 45px;
@@ -57,15 +66,14 @@ h1 {
     color: blueviolet;
     font-size: 35px;
     font-family: "Bytesized", sans-serif;
-    position: relative;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: inline-block;
     align-items: center;
-    justify-content: center;
     cursor: pointer;
     padding: 10px;
     padding-left: 15px;
+    
 }
 
 #btn #circle {
@@ -101,6 +109,4 @@ h1 {
     font-family: "Boldonse", system-ui;
 }
 
-#input, #btn {
-    flex-wrap: center;
-}
+
