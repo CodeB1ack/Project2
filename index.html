@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/fda2c43a03.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee+Tint&family=Bytesized&display=swap" rel="stylesheet">
@@ -12,9 +11,19 @@
     <title>Giphy Search</title>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Project 2 </a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="title">Giphy Search</h1>
     <div class="container">
-        <h1 class="title">Giphy Search</h1>
-            <input type="text" class="search-input" placeholder="Search" id="input" >
+        <input type="text" class="search" placeholder="Search" id="input" >
             <div onclick="sendApiRequest()" id="btn">
                 <span class="noselect">Giphy!</span>
                 <div id="circle"></div>
